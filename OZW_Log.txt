@@ -1,0 +1,14 @@
+2017-02-07 03:37:43.228 Always, OpenZwave Version 1.4.2385 Starting Up
+2017-02-07 03:37:43.231 Info, Setting Up Provided Network Key for Secure Communications
+2017-02-07 03:37:43.231 Warning, Failed - Network Key Not Set
+2017-02-07 03:37:43.231 Info, mgr,     Added driver for controller /dev/ttyAMA0
+2017-02-07 03:37:43.231 Info,   Opening controller /dev/ttyAMA0
+2017-02-07 03:37:43.232 Info, Trying to open serial port /dev/ttyAMA0 (attempt 1)
+2017-02-07 03:37:43.232 Info, Serial port /dev/ttyAMA0 opened (attempt 1)
+2017-02-07 03:37:43.232 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9
+2017-02-07 03:37:43.233 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_MEMORY_GET_ID: 0x01, 0x03, 0x00, 0x20, 0xdc
+2017-02-07 03:37:43.233 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_CONTROLLER_CAPABILITIES: 0x01, 0x03, 0x00, 0x05, 0xf9
+2017-02-07 03:37:43.233 Detail, contrlr, Queuing (Command) FUNC_ID_SERIAL_API_GET_CAPABILITIES: 0x01, 0x03, 0x00, 0x07, 0xfb
+2017-02-07 03:37:43.233 Detail, contrlr, Queuing (Command) FUNC_ID_ZW_GET_SUC_NODE_ID: 0x01, 0x03, 0x00, 0x56, 0xaa
+2017-02-07 03:37:43.233 Detail, 
+2017-02-07 03:37:43.233 Info, contrlr, Sending (Command) message (Callback ID=0x00, Expected Reply=0x15) - FUNC_ID_ZW_GET_VERSION: 0x01, 0x03, 0x00, 0x15, 0xe9

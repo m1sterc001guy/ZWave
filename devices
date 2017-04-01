@@ -1,0 +1,21 @@
+autofs           loop1               pts      serial1  tty21  tty40  tty6       vcs3
+block            loop2               ram0     shm      tty22  tty41  tty60      vcs4
+btrfs-control    loop3               ram1     snd      tty23  tty42  tty61      vcs5
+bus              loop4               ram10    stderr   tty24  tty43  tty62      vcs6
+cachefiles       loop5               ram11    stdin    tty25  tty44  tty63      vcs7
+char             loop6               ram12    stdout   tty26  tty45  tty7       vcsa
+console          loop7               ram13    tty      tty27  tty46  tty8       vcsa1
+cpu_dma_latency  loop-control        ram14    tty0     tty28  tty47  tty9       vcsa2
+cuse             mapper              ram15    tty1     tty29  tty48  ttyAMA0    vcsa3
+disk             mem                 ram2     tty10    tty3   tty49  ttyprintk  vcsa4
+fb0              memory_bandwidth    ram3     tty11    tty30  tty5   ttyS0      vcsa5
+fd               mmcblk0             ram4     tty12    tty31  tty50  uhid       vcsa6
+full             mmcblk0p1           ram5     tty13    tty32  tty51  uinput     vcsa7
+fuse             mmcblk0p2           ram6     tty14    tty33  tty52  urandom    vcsm
+gpiomem          mqueue              ram7     tty15    tty34  tty53  vc-cma     vhci
+hwrng            net                 ram8     tty16    tty35  tty54  vchiq      watchdog
+initctl          network_latency     ram9     tty17    tty36  tty55  vcio       watchdog0
+input            network_throughput  random   tty18    tty37  tty56  vc-mem     xconsole
+kmsg             null                raw      tty19    tty38  tty57  vcs        zero
+log              ppp                 rfkill   tty2     tty39  tty58  vcs1
+loop0            ptmx                serial0  tty20    tty4   tty59  vcs2
